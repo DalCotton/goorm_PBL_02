@@ -13,3 +13,15 @@
 
 
 <p style="color: red;">(※common.php에는 db정보가 있으므로 업로드 제외하였습니다.)</p>
+
+[생성한 DB 테이블]
+create table gr_board(
+idx int not null auto_increment,
+title varchar(50),
+content text,
+writer varchar(20),
+regdate date,
+viewpoint varchar(20),
+primary key(idx)
+)DEFAULT CHARSET = utf8;
+
