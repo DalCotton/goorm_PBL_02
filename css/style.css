@@ -1,0 +1,105 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+h1 {
+  text-align: center;
+}
+.container {
+  max-width: 960px;
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+table {
+  float: left;
+  width: 100%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  }
+table tr th {
+  border: 1px solid #333;
+  background-color: orange;
+  line-height: 35px;
+  
+}
+table tr td {
+  border: 1px solid #333;
+  
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  float: right;
+}
+
+button {
+  float: left;
+  padding: 8px 10px;
+  margin: 10px;
+  margin-right: 0;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: orange;
+}
+button:hover {
+  color: orange;
+  background-color: white;
+  border-color: orange;
+}
+
+.form-group {
+  float: left;
+  width: 100%;
+  border: 1px solid #333;
+  border-bottom: 0;
+}
+.form-group.last {
+  border-bottom: 1px solid #333;
+}
+.form-group label {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  border-right: 1px solid #333;
+  background-color: orange;
+  font-size: 20px;
+}
+.form-group.last label {
+  padding: 5% 15px;
+}
+.form-group input {
+  padding: 10px;
+  line-height: 100%;
+  margin: 8px;
+  width: 70%;
+  font-size: 15px;
+}
+.form-group.last #frm_content {
+  width: 70%;
+  height: auto;
+}
